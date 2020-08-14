@@ -1,0 +1,50 @@
+body{
+  background-color: azure;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+#navbar{
+  position: fixed;
+  background-color: gainsboro;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  width: 250px;
+  top: 0;
+  left: 0px;
+  height: 100%;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  border-right: 2px solid;
+  border-color: grey;
+}
+nav > header {
+  font-weight: bold;
+  font-size: 1.5rem;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem 0;
+}
+nav > ul {
+  margin: 0;
+  padding: 0;
+}
+nav > ul > li {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top: 1px solid;
+  text-align: center; 
+}
+nav > ul > li > a {
+  text-decoration: none;
+  padding: 2rem 0;
+}
+#main-doc{
+  position: absolute;
+  margin-left: 250px;
+}
